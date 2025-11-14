@@ -1,0 +1,49 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bookswap-app-86346",
+          "appId": "1:573721059813:android:fc246354886b6d576ccf0c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "bookswap-app-86346",
+          "appId": "1:573721059813:ios:9ba435d5547435616ccf0c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "bookswap-app-86346",
+          "appId": "1:573721059813:ios:9ba435d5547435616ccf0c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bookswap-app-86346",
+          "configurations": {
+            "android": "1:573721059813:android:fc246354886b6d576ccf0c",
+            "ios": "1:573721059813:ios:9ba435d5547435616ccf0c",
+            "macos": "1:573721059813:ios:9ba435d5547435616ccf0c",
+            "web": "1:573721059813:web:646b1435b9d4c8506ccf0c",
+            "windows": "1:573721059813:web:1532cd236678733f6ccf0c"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "dataconnect": {
+      "dataDir": "dataconnect/.dataconnect/pgliteData"
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  }
+}
